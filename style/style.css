@@ -26,7 +26,12 @@ body {
 }
 
 
+
+
+
 /*             start Nav           */
+
+
 .Nav {
     background-color: hsla(0, 0%, 0%, 0.604);
     width: 100%;
@@ -52,7 +57,6 @@ body {
 .Nav h2 {
     float: left;
     margin-top: auto;
-    float: left;
     color: rgb(117, 117, 117);
     font-size: 30px;
     letter-spacing: 2px;
@@ -81,7 +85,6 @@ body {
 }
 
 .Nav li {
-    list-style: none;
     display: inline;
     margin-right: 20px;
     color: rgb(117, 117, 117);
@@ -113,7 +116,12 @@ body {
 }
 
 
+
+
+
 /*             start hero           */
+
+
 .Hero {
     position: relative;
     margin-top: 65px;
@@ -132,7 +140,6 @@ body {
     right: 25%;
     top: 50%;
     transform: translate(50%, -50%);
-    color: aliceblue;
 }
 
 .Hero-text h1 {
@@ -189,7 +196,11 @@ body {
 
 
 
+
 /*             start Pupular Games           */
+
+
+
 .parent {
     overflow: auto;
     margin-bottom: 100px;
@@ -300,7 +311,11 @@ body {
 }
 
 
+
+
 /*     Start Coming-soon-     */
+
+
 
 .Coming-soon-background {
 
@@ -393,12 +408,12 @@ body {
 }
 
 
+
+
+
 /* Start our pruduct */
 
-/* .our-pruduct-txt:hover .under-line{
-    width: 400px;
-   
-} */
+
 
 .our-pruduct-background {
 
@@ -535,28 +550,22 @@ body {
     background-color: brown;
     display: block;
     cursor: pointer;
+    transition: .3s;
 
 }
 
 .our-pruduct-overlay .hh:hover {
     font-size: 22;
-    transition: .3s;
     background-color: rgb(16, 55, 81);
-
 }
 
-/* 
-.our-pruduct-overlay a {
-    position: absolute;
-    width: fit-content;
-    color: aliceblue;
-    background-color: brown;
-    font-size: 20px;
-    display: block;
-} */
 
 
-/* Start fixed img */
+
+
+/* Start Stats img */
+
+
 
 .fixedImg {
     width: 100%;
@@ -568,14 +577,14 @@ body {
     overflow: auto;
 }
 
-.fixed-box {
+.Stats-box {
     margin-top: 40px;
     width: 20%;
     text-align: center;
     float: left;
 }
 
-.fixed-box2 {
+.Stats-box2 {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -596,11 +605,11 @@ body {
     transition: .3s;
 }
 
-.Circle:hover .FixedIcon {
+.Circle:hover .StatsIcon {
     color: rgb(16, 55, 81);
 }
 
-.FixedIcon {
+.StatsIcon {
     color: white;
     font-size: 40PX;
     position: absolute;
@@ -610,7 +619,7 @@ body {
 
 }
 
-.fixed-box p {
+.Stats-box p {
     line-height: 20px;
     font-size: 22px;
     margin-top: 10px;
@@ -618,7 +627,13 @@ body {
     color: white;
 }
 
+
+
+
+
 /*    Start Team  */
+
+
 
 .Team-box {
     text-align: center;
@@ -755,7 +770,13 @@ margin-bottom: 80px;
     color: cyan;
 }
 
+
+
+
+
 /*         Reviwes       */
+
+
 
 .ReviewProfile-box{
     width: 35%;
@@ -824,7 +845,13 @@ margin-bottom: 80px;
 }
 
 
+
+
+
 /*    why Choose Us  */
+
+
+
 .Choose-us{
     background-image: url("../images/AssassinChooseUs.png");
     background-repeat: no-repeat;
@@ -897,7 +924,11 @@ margin-bottom: 80px;
 }
 
 
+
+
 /*    FOOTER    */
+
+
 
 .footer{
     background-color: rgba(16, 55, 81, 0.323);
